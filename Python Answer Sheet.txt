@@ -1,0 +1,22 @@
+1. B
+2. A
+3. A
+4. B
+5. A
+6. C
+7. C
+8. B
+9. A,D
+10.C
+
+Q11: Differentiate between a list, tuple, set and dictionary.
+Ans: List: It can be modified after its creation & items are indexed.
+     Tuple: It cannoy be changed after its creation & items are indexed.
+     Dictionary: It can be modified after its creation & items are not indexed.
+
+
+Q12: Are strings mutable in python? Suppose you have a string “I+Love+Python”, write a small code to replace ‘+’ with space in python.
+Ans: Yes, it can changed.
+
+     Code: <varible_name>.replace('+',' ')
+     

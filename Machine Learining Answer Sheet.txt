@@ -1,0 +1,48 @@
+1. C
+2. D
+3. C
+4. A
+5. C
+6. D
+7. A
+8. A,C
+9. A
+10.A,D
+
+Q11: What are outliers? Explain the Inter Quartile Range(IQR) method for outlier detection.
+Ans: They are the data points that an unusual observation meass differ fro the other observation.
+     They are easliy detected by scatter plot visual technique.
+
+     IQR - 1. Multiply the IQR by 1.5  the discern outliers.
+	   2. Add 1.5 x IQR to the third quartile to fidnout any number greater than this is a suspected outlier.
+	   3. Subtract 1.5 x IQR from the first quartile to findout any number less than this is a suspected outlier. 
+
+
+Q12: What is the primary difference between bagging and boosting algorithms?
+Ans: Bagging:
+     In this the result is obtained by taking an average or mode of individual learners’ output.
+     Boosting:
+     It is a type of sampling technique in which we make a sample of same size as that of original dataset by replacing the points we already selected. So, some of the data points will always be repeated in the sample.
+
+
+Q13: What is adjusted R2 in logistic regression. How is it calculated?
+Ans: It is basically used to determined how reliable the correlation is and how much is determined by the addition of independent variables
+     Formula: 1-|(1-R2)(n-1) / n-k-1 |
+	N is the number of points in your data sample.
+	K is the number of independent regressors.
+
+Q14: What is the difference between standardisation and normalisation?
+Ans: Standardisation
+     It is the process of rescaling a variable so that the new scale will have a mean of 0 and standard deviation of 1.
+     Normalisation
+     It shrinks a variable’s range of values to a scale of 0 to 1.
+
+Q15: What is cross-validation? Describe one advantage and one disadvantage of using cross-validation.
+Ans: Cross validation is a method used to estimate the performance of machine learning models.
+     
+     Advantages:
+     It's basically determine how accurate your model is on multiple and different subsets of data.
+     
+     Disadvatages:
+     Its increases the training time of the model due to computations.
+     

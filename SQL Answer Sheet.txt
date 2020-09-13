@@ -1,0 +1,40 @@
+1. A,D
+2. A,B,C
+3. B
+4. B
+5. A
+6. C
+7. B
+8. B
+9. B
+10.C
+
+Q11: What is data-warehouse?
+Ans: Basically its a central data points which is integrated from one or more disparate sources. Means a place where all data 
+     have maintained & collected from different souces is calles data warehouse. 
+
+Q12: What is the difference between OLTP VS OLAP?
+Ans: OLTP:
+     Online transaction processing (OLTP) captures, stores, and processes data from transactions in real time. 
+     OLAP:
+     Online analytical processing (OLAP) uses complex queries to analyze aggregated historical data from OLTP systems.
+
+Q13: What are the various characteristics of data-warehouse?
+Ans: characteristics 
+     1. Subject Oriented:
+	A data warehouse is always a subject oriented as it delivers information about a theme instead of organization’s current operations. It can be achieved on specific theme. 
+     2. Integrated:
+	A data warehouse is built by integrating data from various sources of data such that a mainframe and a relational database. In addition, it must have reliable naming conventions, format and codes. 
+	Integration of data warehouse benefits in effective analysis of data. Reliability in naming conventions, column scaling, encoding structure etc.
+     3. Time Varient:
+	In this data is maintained via different intervals of time such as weekly, monthly, or annually etc. It founds various time limit which are structured between the large datasets and are held in online transaction process.
+     4. Non Volatile
+	As the name defines the data resided in data warehouse is permanent. It also means that data is not erased or deleted when new data is inserted.
+
+Q14: What is Star-Schema??
+Ans: Star schema is the simplest style of data mart schema and its widely used to develop data warehouses and dimensional data marts. The star schema consists of one or more fact tables referencing any number of dimension tables.
+
+
+Q15: What do you mean by SETL?
+Ans: SETL is a high-level programming language that's based on the mathematical theory of sets. SETL is an interpreted language with a syntax that is resembles C and in many cases similar to Perl. 
+     In SETL every statement is terminated by a semicolon. Variable names are case-insensitive and are automatically determined by their last assignment.
