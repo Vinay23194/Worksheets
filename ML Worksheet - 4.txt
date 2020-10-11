@@ -1,0 +1,26 @@
+Ans1 : A
+Ans2 : D
+Ans3 : B
+Ans4 : A
+Ans5 : B
+Ans6 : D
+Ans7 : B
+Ans8 : B
+Ans9 : Gini Index = 1-(0.40 x 0.40 + 0.60 x 0.60)
+		    0.48
+       Entropy = [(40/100)*log2 (40/100)] - [(60/100)*log2 (60/100)]
+Ans10: Advantages of Random Forests over Decision tree are :-
+	1. Reduce the overfitting.
+	2. It's Bagging & boosting algorithem, which help to maintain the bias & variance for more accurate model.
+Ans11: Basically it will helps to normalize the data which may lead to increase the calculation speed of selected algirithem.
+       Types of Scalling Techniques :-
+	1. Min-Max Scaler
+	2. Standard Scaler
+Ans12:  Min-Max Scaler
+Ans13: No, Accuracy is not a good metric to measure the performance of the model beacuse :-
+	it does not distinguish between the numbers of correctly classified examples of different classes. Hence, it may lead to erroneous conclusions.
+Ans14: F-Score is used to test the test's accuracy by :
+	F-Score = 2 * (precision * recall) / (precision + recall)
+Ans15: Fit() - Its calculate the parameters of particular technique
+       Transform() - To apply the transformation to any particular set of examples.
+       fit_transform() - Joins these two steps and is used for the initial fitting of parameters on the training set, while also returning the transformed.
